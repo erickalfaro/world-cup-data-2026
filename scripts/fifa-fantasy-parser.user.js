@@ -287,11 +287,11 @@
       );
     }));
     panel.appendChild(mkBtn('Download CSV', () => {
-      download('fifa_players.csv', toCSV(), 'text/csv');
+      download('pool.csv', toCSV(), 'text/csv');
       flash('CSV downloaded ✓');
     }));
     panel.appendChild(mkBtn('Download JSON', () => {
-      download('fifa_players.json', JSON.stringify(asArray(), null, 2), 'application/json');
+      download('pool.json', JSON.stringify(asArray(), null, 2), 'application/json');
       flash('JSON downloaded ✓');
     }));
     panel.appendChild(mkBtn('Re-scan now', () => scan()));

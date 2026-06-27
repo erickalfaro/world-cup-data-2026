@@ -24,9 +24,10 @@ page and exports it as JSON/CSV. This is how [`data/pool.json`](../data/pool.jso
 3. Log into the **FIFA Fantasy** site and open the **player pool / transfers** screen.
 4. **Scroll the whole list top → bottom** (slowly) so every player renders and gets captured.
    A floating panel shows the running count — click **Re-scan now** if it looks short.
-5. Click **Download JSON** → your browser saves `fifa_players.json`.
-6. Rename it to **`pool.json`** and drop it in your data folder (`data/pool.json`, or your own
-   `*_squad/`'s working copy — see the [root README](../README.md#use-it-for-your-own-team)).
+5. Click **Download JSON** → your browser saves **`pool.json`**.
+6. Move it into your data folder, **overwriting `data/pool.json`** (or your own `*_squad/`'s
+   working copy — see the [root README](../README.md#use-it-for-your-own-team)). That single
+   file is always your latest pull — no renaming, no second copy to manage.
 
 Everything below is the detailed version.
 
@@ -50,12 +51,12 @@ Everything below is the detailed version.
 1. Go to the FIFA Fantasy **player pool / transfers** screen where the full list is shown.
 2. **Scroll the entire list top to bottom** — the parser only sees rows the page has
    rendered, so scrolling is what loads everyone into the store. Use **Re-scan now** if needed.
-3. Click **Download JSON**. The browser saves `fifa_players.json`.
-4. Rename/move it to **`data/pool.json`** to refresh this repo's optimization input.
+3. Click **Download JSON**. The browser saves **`pool.json`**.
+4. Move it onto **`data/pool.json`** (overwrite it) to refresh this repo's optimization input.
 
-`Download CSV` produces `fifa_players.csv` if you prefer a flat table. Both raw export names
-(`fifa_players.csv` / `fifa_players.json`) are git-ignored so they don't get committed by
-accident — only the curated `data/pool.json` is tracked.
+`Download CSV` produces `pool.csv` if you prefer a flat table; it's git-ignored (transient).
+Only `data/pool.json` is tracked — and since you overwrite it in place each pull, its git
+history doubles as your snapshot archive (`git show HEAD~1:data/pool.json` for the previous one).
 
 > ⚠️ FIFA's markup uses hashed CSS class names that change over time. The script anchors on
 > stable signals (headshot image URLs, a `.player` class token) to survive that, but a major

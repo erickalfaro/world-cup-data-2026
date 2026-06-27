@@ -6,5 +6,10 @@ Thumbs.db
 .vscode/
 
 # Exported data
+# The userscript's flat-table CSV export is transient (the tracked pool lives at data/pool.json).
+pool.csv
 fifa_players.csv
 fifa_players.json
+# Stray fantasy exports dropped at the repo root (promote them onto data/pool.json instead).
+/squad_tampermonkey.json
+/pool.json

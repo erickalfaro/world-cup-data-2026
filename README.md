@@ -30,7 +30,8 @@ decide? Here's the whole loop:
 1. **Get the repo.** Fork or clone it so you have `data/`, `scripts/`, and `CLAUDE.md` locally.
 2. **Pull your fantasy pool.** Follow the
    [6-step TL;DR in `scripts/README.md`](scripts/README.md#tldr--pull-your-own-data-in-6-steps)
-   to run the userscript and export the player pool. Save it as **`data/pool.json`**.
+   to run the userscript and export the player pool, then **overwrite `data/pool.json`** with it.
+   That one file is always your latest pull — re-pull and overwrite it before each round.
 3. **(Optional) refresh fixtures/squads.** Re-download the openfootball JSON (see
    [`data/README.md`](data/README.md)) if you want the latest results and standings.
 4. **Make your own squad folder.** Copy [`ericks_squad/`](ericks_squad/) to

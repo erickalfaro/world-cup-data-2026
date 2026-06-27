@@ -1,14 +1,15 @@
 # `data/` — reusable World Cup 2026 dataset
 
-Snapshot pulled **2026-06-24** (tournament in progress). Re-pull before relying on prices,
-points, standings, or fixtures.
+Snapshot pulled **2026-06-27** (tournament in progress) — fantasy `pool.json` and
+`matches.csv` / `squads.csv` both current as of this date. The two sources refresh
+independently; re-pull whichever you need before relying on prices, points, standings, or fixtures.
 
 ## Files
 | File | Description |
 |------|-------------|
 | `matches.csv` | All 104 fixtures + results, one row per match (UTF-8 BOM for Excel). |
 | `squads.csv` | Official registered 26-man rosters, one row per player (1,248 rows, 48 teams). |
-| `pool.json` | FIFA Fantasy player pool — every selectable player with price, season points, and next fixture. Produced by the [parser](../scripts/fifa-fantasy-parser.user.js). |
+| `pool.json` | FIFA Fantasy player pool — every selectable player with price, season points, and next fixture. Produced by the [parser](../scripts/fifa-fantasy-parser.user.js). **This is the single drop zone: every fresh pull overwrites this file in place** (bump the snapshot date above when you do). |
 | `fantasy_rules.md` | Scoring, squad/budget/transfer/booster rules + general strategy notes. |
 | `archive/` | Raw source JSON the CSVs are derived from (see below). |
 
@@ -66,7 +67,10 @@ fixture) · `team` · `opponent` · `worth` (price, $m) · `points` (season-to-d
 > nationality.** To get a player's nation, use `nextGame` plus known nationality (or join on
 > `squads.csv`).
 
-## Status as of the 2026-06-24 snapshot
+## Status as of the latest snapshots
+- **Fantasy pool (2026-06-27):** 940 selectable players — down from 1,190 on 2026-06-24 as
+  eliminated teams' players drop out of the pool. Each re-pull overwrites `pool.json` wholesale.
 - 104 matches total (12 groups of 4 → top 2 + 8 best 3rd-place into Round of 32 → straight knockout).
-- **48 played** (through 2026-06-23), **56 upcoming** (incl. 2026-06-24 group games onward).
+- **Matches/squads (2026-06-27):** **66 played** (through 2026-06-26), **38 upcoming** — group
+  stage essentially done, knockouts ahead. Refresh with `python scripts/refresh_openfootball.py`.
 - Date range: 2026-06-11 → 2026-07-19 (Final, New York / New Jersey).

@@ -12,7 +12,7 @@ Data is a **daily snapshot** (openfootball + FIFA fantasy pool) — re-pull befo
 |------|-----------|
 | `ericks_squad/my_squad.md` | **My current 15 players**, XI/bench, captain, bank, boosters remaining. Update after every change. |
 | `ericks_squad/DECISIONS.md` | **Decision log** — every round's moves + the reasoning. Append each round. |
-| `data/pool.json` | **THE optimization input** — every selectable player with `worth` (price), `points` (season-to-date), `position`, `nextGame`, `team`/`opponent`. (JSON despite the original `.md` name; it's the parser's export.) |
+| `data/pool.json` | **THE optimization input** — every selectable player with `worth` (price), `points` (season-to-date), `position`, `nextGame`, `team`/`opponent`. (JSON despite the original `.md` name; it's the parser's export.) **Single drop zone: each Tampermonkey pull overwrites this file in place — it is always the latest pull.** |
 | `data/matches.csv` | All 104 fixtures + results (compute standings/fixtures from `status=played`). |
 | `data/squads.csv` | Official 26-man rosters (position/club/DOB). Used to map FIFA 3-letter codes → teams. |
 | `data/fantasy_rules.md` | Scoring, squad/budget/transfer/booster rules + strategy notes. |
@@ -28,7 +28,12 @@ Data is a **daily snapshot** (openfootball + FIFA fantasy pool) — re-pull befo
 - Scoring leans MID/FWD (goals + assists + creation); DEF/GK live on clean sheets (+5, need 60 mins).
 
 ## Optimization workflow (each round)
-1. Re-pull data (see `data/README.md` + `scripts/README.md`) so `data/pool.json` + matches are current.
+1. Re-pull data so the inputs are current:
+   (a) **Fantasy pool** — Erick runs the Tampermonkey userscript's **Download JSON** and
+   overwrites `data/pool.json` with it (see `scripts/README.md`). `data/pool.json` is the single
+   drop zone; **"I pulled fresh data" = "`data/pool.json` was just overwritten"** — read it and proceed.
+   (b) **Matches/squads** — run `python scripts/refresh_openfootball.py` for the latest results/standings.
+   (c) **Restamp** the snapshot date(s) at the top of `data/README.md` to match what you just pulled.
 2. Parse `data/pool.json`; compute group standings from played matches to grade fixtures (opponent weak/eliminated, rotation risk for qualified teams).
 3. Rank by points and points-per-$; flag dead slots (0-pt non-players) and same-team upgrades.
 4. Pick transfers (respect budget, free-transfer count, country limits), XI/formation, captain, booster.
