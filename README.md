@@ -11,7 +11,7 @@ Mexico, 11 Jun – 19 Jul 2026). Three things live here, and you're welcome to u
    and the reasoning behind it. Steal the process, not the team.
 
 > ⏱️ **Snapshot, not a live feed.** The committed data is a frozen daily snapshot
-> (last refreshed **2026-06-24**, with the tournament still in progress). To get current
+> (last refreshed **2026-06-27**, with the tournament still in progress). To get current
 > numbers, re-pull — see [`data/README.md`](data/README.md) and [`scripts/README.md`](scripts/README.md).
 
 ## Repo map

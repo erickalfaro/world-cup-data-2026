@@ -1,5 +1,22 @@
 # Decision Log
 
+## 2026-06-27 — R32 preliminary plan (PRELIMINARY — not yet actioned)
+Context: today is the last group day (J/K/L finals tonight); first R32 match is **tomorrow 06-28 (RSA v CAN)**. We are inside the **unlimited free-transfer window (R3→R32)**, open until that kickoff. At knockouts budget rises to **$105m** and country cap to **8**, so concentration is no longer a constraint. Round-3 squad is already locked for tonight's games — nothing to action before tonight. **Decision: HOLD all moves, re-pull after tonight, finalize R32 tomorrow morning with full info** (resolves Mojica/Colombia + Bruno/Portugal qualification and the TBD R32 fixtures incl. Yamal/Spain's tie).
+
+Premium core is well-fixtured — **do not touch**: Mbappé (FRA v SWE), Vinícius (BRA v JPN), Messi (ARG v CPV), Haaland (CIV v NOR), Olise (FRA v SWE), Freeman (USA v BIH).
+
+**Problems flagged:**
+- **Coufal** (DEF, bench) — Czech Rep eliminated (bottom of Group A, 1 pt); dropped from the pool. Dead slot, **must replace**.
+- **Galíndez** (GK, starter) — Ecuador advances only as a 3rd-place team → R32 tie vs a **group winner** = poor clean-sheet odds.
+- **Wiegele** (GK, bench, 0 pts) and **Abdelmonem** (DEF, bench, 1 pt) — weak/dead bench filler.
+
+**Candidate moves (free this window, confirm tomorrow):**
+- Coufal → **Dest** (USA DEF, $4.3m, 22 pts, v BIH) — stacks USA clean sheet with Freeman/Ream; could start.
+- Galíndez → keeper from an R32 favorite: **Maignan** (FRA, $5m, 15 pts, v SWE) *preferred* / Alisson (BRA, $5m, 18 pts, v JPN) / Freese (USA, $4.2m, 11 pts, v BIH, cheapest).
+- **Captain:** move off Vinícius (Japan = toughest of our attackers' opponents) → **Mbappé v Sweden** (lean) or **Messi v Cape Verde**; both face minnows.
+
+**Booster note:** R32 is the **last knockout round with minnows** (Cape Verde, Sweden, Paraguay). If we ever use **Max Captain**, Mbappé-v-SWE or Messi-v-CPV here is arguably the best single spot all tournament — flag as a live decision tomorrow. Hold 12th Man (bench too weak), Qualification, Mystery, Wildcard.
+
 ## 2026-06-24 — Round 3 final pre-lockout check (lockout 12:00 PT: SUI v CAN / BIH v QAT)
 Re-ran the full optimization before the round locks. Verdict: the R3 squad below is already well-built; confirm and lock with one free tweak.
 
