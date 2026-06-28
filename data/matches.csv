@@ -57,36 +57,36 @@
 56,Matchday 6,Group J,2026-06-16,21:00 UTC-7,Austria,Jordan,played,3,1,1,0,San Francisco Bay Area (Santa Clara),Romano Schmid 21'; Yazan Al-Arab 76'; Marko Arnautovic 90+12'(P),Ali Olwan 50'
 57,Matchday 12,Group J,2026-06-22,12:00 UTC-5,Argentina,Austria,played,2,0,1,0,Dallas (Arlington),Lionel Messi 38'; Lionel Messi 90+5',
 58,Matchday 12,Group J,2026-06-22,20:00 UTC-7,Jordan,Algeria,played,1,2,1,0,San Francisco Bay Area (Santa Clara),Nizar Al-Rashdan 36',Nadhir Benbouali 69'; Amine Gouiri 82'
-59,Matchday 17,Group J,2026-06-27,21:00 UTC-5,Algeria,Austria,upcoming,,,,,Kansas City,,
-60,Matchday 17,Group J,2026-06-27,21:00 UTC-5,Jordan,Argentina,upcoming,,,,,Dallas (Arlington),,
+59,Matchday 17,Group J,2026-06-27,21:00 UTC-5,Algeria,Austria,played,3,3,1,1,Kansas City,Rafik Belghali 45'; Riyad Mahrez 60'; Riyad Mahrez 90+3',Marko Arnautovic 28'; Marcel Sabitzer 55'; Sasa Kalajdzic 90+6'
+60,Matchday 17,Group J,2026-06-27,21:00 UTC-5,Jordan,Argentina,played,1,3,0,2,Dallas (Arlington),Mousa Al-Tamari 55',Giovani Lo Celso 19'; Lautaro Martínez 31'(P); Lionel Messi 80'
 61,Matchday 7,Group K,2026-06-17,12:00 UTC-5,Portugal,DR Congo,played,1,1,1,1,Houston,João Neves 6',Yoane Wissa 45+5'
 62,Matchday 7,Group K,2026-06-17,20:00 UTC-6,Uzbekistan,Colombia,played,1,3,0,1,Mexico City,Abbosbek Fayzullaev 60',Daniel Muñoz 40'; Luis Díaz 65'; Jáminton Campaz 90+9'
 63,Matchday 13,Group K,2026-06-23,12:00 UTC-5,Portugal,Uzbekistan,played,5,0,3,0,Houston,Cristiano Ronaldo 6'; Cristiano Ronaldo 39'; Nuno Mendes 17'; Abduvohid Nematov 60'; Rafael Leão 87',
 64,Matchday 13,Group K,2026-06-23,20:00 UTC-6,Colombia,DR Congo,played,1,0,0,0,Guadalajara (Zapopan),Daniel Muñoz 76',
-65,Matchday 17,Group K,2026-06-27,19:30 UTC-4,Colombia,Portugal,upcoming,,,,,Miami (Miami Gardens),,
-66,Matchday 17,Group K,2026-06-27,19:30 UTC-4,DR Congo,Uzbekistan,upcoming,,,,,Atlanta,,
+65,Matchday 17,Group K,2026-06-27,19:30 UTC-4,Colombia,Portugal,played,0,0,0,0,Miami (Miami Gardens),,
+66,Matchday 17,Group K,2026-06-27,19:30 UTC-4,DR Congo,Uzbekistan,played,3,1,0,1,Atlanta,Yoane Wissa 68'(P); Fiston Mayele 78'; Yoane Wissa 90+1',Eldor Shomurodov 10'
 67,Matchday 7,Group L,2026-06-17,15:00 UTC-5,England,Croatia,played,4,2,2,2,Dallas (Arlington),Harry Kane 12'(P); Harry Kane 42'; Jude Bellingham 47'; Marcus Rashford 85',Martin Baturina 36'; Petar Musa 45+5'
 68,Matchday 7,Group L,2026-06-17,19:00 UTC-4,Ghana,Panama,played,1,0,0,0,Toronto,Caleb Yirenkyi 90+5',
 69,Matchday 13,Group L,2026-06-23,16:00 UTC-4,England,Ghana,played,0,0,0,0,Boston (Foxborough),,
 70,Matchday 13,Group L,2026-06-23,19:00 UTC-4,Panama,Croatia,played,0,1,0,0,Toronto,,Ante Budimir 54'
-71,Matchday 17,Group L,2026-06-27,17:00 UTC-4,Panama,England,upcoming,,,,,New York/New Jersey (East Rutherford),,
-72,Matchday 17,Group L,2026-06-27,17:00 UTC-4,Croatia,Ghana,upcoming,,,,,Philadelphia,,
+71,Matchday 17,Group L,2026-06-27,17:00 UTC-4,Panama,England,played,0,2,0,0,New York/New Jersey (East Rutherford),,Jude Bellingham 62'; Harry Kane 67'
+72,Matchday 17,Group L,2026-06-27,17:00 UTC-4,Croatia,Ghana,played,2,1,1,0,Philadelphia,Petar Sucic 31'; Nikola Vlasic 83',Derrick Luckassen 73'
 73,Round of 32,,2026-06-28,12:00 UTC-7,South Africa,Canada,upcoming,,,,,Los Angeles (Inglewood),,
-74,Round of 32,,2026-06-29,16:30 UTC-4,Germany,3A/B/C/D/F,upcoming,,,,,Boston (Foxborough),,
+74,Round of 32,,2026-06-29,16:30 UTC-4,Germany,Paraguay,upcoming,,,,,Boston (Foxborough),,
 75,Round of 32,,2026-06-29,19:00 UTC-6,Netherlands,Morocco,upcoming,,,,,Monterrey (Guadalupe),,
 76,Round of 32,,2026-06-29,12:00 UTC-5,Brazil,Japan,upcoming,,,,,Houston,,
-77,Round of 32,,2026-06-30,17:00 UTC-4,1I,3C/D/F/G/H,upcoming,,,,,New York/New Jersey (East Rutherford),,
-78,Round of 32,,2026-06-30,12:00 UTC-5,Ivory Coast,2I,upcoming,,,,,Dallas (Arlington),,
-79,Round of 32,,2026-06-30,19:00 UTC-6,Mexico,3C/E/F/H/I,upcoming,,,,,Mexico City,,
-80,Round of 32,,2026-07-01,12:00 UTC-4,1L,3E/H/I/J/K,upcoming,,,,,Atlanta,,
-81,Round of 32,,2026-07-01,17:00 UTC-7,USA,3B/E/F/I/J,upcoming,,,,,San Francisco Bay Area (Santa Clara),,
-82,Round of 32,,2026-07-01,13:00 UTC-7,1G,3A/E/H/I/J,upcoming,,,,,Seattle,,
-83,Round of 32,,2026-07-02,19:00 UTC-4,2K,2L,upcoming,,,,,Toronto,,
-84,Round of 32,,2026-07-02,12:00 UTC-7,1H,2J,upcoming,,,,,Los Angeles (Inglewood),,
-85,Round of 32,,2026-07-02,20:00 UTC-7,Switzerland,3E/F/G/I/J,upcoming,,,,,Vancouver,,
-86,Round of 32,,2026-07-03,18:00 UTC-4,1J,2H,upcoming,,,,,Miami (Miami Gardens),,
-87,Round of 32,,2026-07-03,20:30 UTC-5,1K,3D/E/I/J/L,upcoming,,,,,Kansas City,,
-88,Round of 32,,2026-07-03,13:00 UTC-5,Australia,2G,upcoming,,,,,Dallas (Arlington),,
+77,Round of 32,,2026-06-30,17:00 UTC-4,France,Sweden,upcoming,,,,,New York/New Jersey (East Rutherford),,
+78,Round of 32,,2026-06-30,12:00 UTC-5,Ivory Coast,Norway,upcoming,,,,,Dallas (Arlington),,
+79,Round of 32,,2026-06-30,19:00 UTC-6,Mexico,Ecuador,upcoming,,,,,Mexico City,,
+80,Round of 32,,2026-07-01,12:00 UTC-4,England,DR Congo,upcoming,,,,,Atlanta,,
+81,Round of 32,,2026-07-01,17:00 UTC-7,USA,Bosnia & Herzegovina,upcoming,,,,,San Francisco Bay Area (Santa Clara),,
+82,Round of 32,,2026-07-01,13:00 UTC-7,Belgium,Senegal,upcoming,,,,,Seattle,,
+83,Round of 32,,2026-07-02,19:00 UTC-4,Portugal,Croatia,upcoming,,,,,Toronto,,
+84,Round of 32,,2026-07-02,12:00 UTC-7,Spain,Austria,upcoming,,,,,Los Angeles (Inglewood),,
+85,Round of 32,,2026-07-02,20:00 UTC-7,Switzerland,Algeria,upcoming,,,,,Vancouver,,
+86,Round of 32,,2026-07-03,18:00 UTC-4,Argentina,Cape Verde,upcoming,,,,,Miami (Miami Gardens),,
+87,Round of 32,,2026-07-03,20:30 UTC-5,Colombia,Ghana,upcoming,,,,,Kansas City,,
+88,Round of 32,,2026-07-03,13:00 UTC-5,Australia,Egypt,upcoming,,,,,Dallas (Arlington),,
 89,Round of 16,,2026-07-04,17:00 UTC-4,W74,W77,upcoming,,,,,Philadelphia,,
 90,Round of 16,,2026-07-04,12:00 UTC-5,W73,W75,upcoming,,,,,Houston,,
 91,Round of 16,,2026-07-05,16:00 UTC-4,W76,W78,upcoming,,,,,New York/New Jersey (East Rutherford),,

@@ -1,25 +1,35 @@
-# My Squad — current state (as of R3 group finale, 2026-06-24)
+# My Squad — current state (R32, set 2026-06-28)
 
-15 players · 2 GK / 5 DEF / 5 MID / 3 FWD · ~$100m used, ~$0.1m bank.
-Formation **3-4-3**. Captain **Vinícius**, Vice **Haaland**. No booster active.
+15 players · 2 GK / 5 DEF / 5 MID / 3 FWD · ~$101.9m used, ~$3.1m bank ($105m knockout budget).
+Formation **3-4-3**. Captain **Mbappé**, Vice **Haaland**. **Booster: Qualification (active for R32).**
 
 | Pos | Player | Country | In XI |
 |-----|--------|---------|-------|
-| GK  | Hernán Galíndez   | Ecuador   | ✅ |
-| GK  | Patrick Wiegele   | Austria   | bench |
-| DEF | Alex Freeman      | USA       | ✅ |
-| DEF | Tim Ream          | USA       | ✅ |
-| DEF | Johan Mojica      | Colombia  | ✅ |
-| DEF | Vladimír Coufal   | Czechia   | bench |
-| DEF | Mohamed Abdelmonem| Egypt     | bench |
-| MID | Vinícius Júnior   | Brazil    | ✅ (C) |
-| MID | Michael Olise     | France    | ✅ |
-| MID | Lamine Yamal      | Spain     | ✅ |
-| MID | Bruno Fernandes   | Portugal  | ✅ |
-| MID | Mostafa Zico      | Egypt     | bench |
-| FWD | Lionel Messi      | Argentina | ✅ |
-| FWD | Erling Haaland    | Norway    | ✅ (VC) |
-| FWD | Kylian Mbappé     | France    | ✅ |
+| GK  | Emiliano Martínez | Argentina | ✅ |
+| GK  | Raúl Rangel        | Mexico    | bench |
+| DEF | Alex Freeman       | USA       | ✅ |
+| DEF | Aymeric Laporte    | Spain     | ✅ |
+| DEF | Daniel Muñoz       | Colombia  | ✅ |
+| DEF | Nicolás Pico       | Argentina | bench |
+| DEF | Ezri Konsa         | England   | bench |
+| MID | Vinícius Júnior    | Brazil    | ✅ |
+| MID | Ousmane Dembélé    | France    | ✅ |
+| MID | Lamine Yamal       | Spain     | ✅ |
+| MID | Johan Manzambi     | Switzerland | ✅ |
+| MID | Mostafa Zico       | Egypt     | bench |
+| FWD | Lionel Messi       | Argentina | ✅ |
+| FWD | Kylian Mbappé      | France    | ✅ (C) |
+| FWD | Erling Haaland     | Norway    | ✅ (VC) |
 
-**Bench priority:** Zico → Abdelmonem → Coufal → Wiegele
-**Boosters remaining:** Wildcard, 12th Man, Max Captain, Qualification (R32+), Mystery (R32+) — all unused.
+**Captain:** Mbappé (set pre-lock). **Vice:** Haaland.
+**Live captain ladder (free re-roll to any team yet to kick off):** Mbappé (FRA v SWE, 06-30)
+→ if he blanks, roll to **Messi** (ARG v CPV, 07-03, latest kickoff). Vinícius plays first
+(06-29) but is left uncaptained (BRA v JPN is the toughest of our premiums' fixtures).
+
+**Bench priority:** Pico → Konsa → Zico → Rangel
+**Boosters remaining:** ~~Qualification (USED — R32)~~ · Wildcard, 12th Man, Max Captain, Mystery — unused.
+
+**Booster roadmap:** Qualification used now (all 11 starters are R32 advance-favorites). Hold
+Max Captain (live re-roll covers it; save for a standout mismatch / the Final), Wildcard
+(barred in R32 — save for R16/QF), 12th Man (save for a clean mismatch), Mystery (evaluate
+when revealed at R32 open).

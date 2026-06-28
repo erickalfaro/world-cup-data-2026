@@ -1,5 +1,42 @@
 # Decision Log
 
+## 2026-06-28 — R32 full rebuild (ACTIONED — set before lockout RSA v CAN, 12:00 PT)
+Context: last **unlimited free-transfer window** (R3→R32). Knockout budget $105m, country cap 3
+(R32). Goal: max R32 ceiling **weighted by advancement likelihood**, since R16+ transfers are
+capped (4/4/5/6) — the real risk this window is a future round where >4 players die at once.
+
+**Transfers (8, all FREE):**
+- OUT: Coufal (CZE eliminated — forced) · Wiegele (0-pt backup GK) · Galíndez (ECU 3rd-place
+  draws group-winner MEX → poor CS) · Ream (trim USA to 2) · Mojica (8 pts → upgrade) ·
+  Mohamed Hany (EGY DEF, coin-flip team) · Olise (17 pts) · Bruno Fernandes (13 pts, POR collision).
+- IN: **Martínez** (ARG GK) · Rangel (MEX GK, bench) · Laporte (ESP DEF) · Muñoz (COL DEF) ·
+  **Pico** (ARG DEF) · Konsa (ENG DEF, bench) · **Dembélé** (FRA MID, 35 pts) · Manzambi (SUI MID, 29 pts).
+- Net: $99.9m → **$101.9m / $105m, $3.1m bank.** Split 2/5/5/3. Caps: ARG 3, ESP 2, FRA 2.
+
+**Why path-aware (the key reasoning):**
+- GK = **Martínez (ARG)**, not Simón (ESP): same elite CS odds, but ARG has the easiest path
+  (R32 CPV → R16 vs AUS/EGY) while Spain hits the R16 Iberian derby vs Portugal.
+- **ARG is the one deliberate 3-stack** (Martínez/Pico/Messi) — concentrate on the surest
+  deep-runner. Spain & USA trimmed to 2 each, so **no single R16 tie kills >2 of our players**
+  → the 4 free R16 transfers always cover the casualties. Bench (Pico/Konsa) also on easy paths.
+- **Dembélé over Olise** (35 vs 17 pts, same FRA v SWE fixture) — upgrade the re-pull revealed.
+- **Haaland kept** despite worst path (likely R16 vs Brazil): ride his elite R32 fixture +
+  captain fallback, then **pivot with a FREE R16 transfer** if Norway draws Brazil.
+
+**Formation/XI:** 3-4-3. XI = Martínez; Freeman/Laporte/Muñoz; Vinícius/Dembélé/Yamal/Manzambi;
+Messi/Mbappé/Haaland. Bench: Pico → Konsa → Zico → Rangel. **All 11 starters are R32 advance-favorites.**
+
+**Captain:** **Mbappé** (FRA v SWE, 06-30). Live ladder: if Mbappé blanks → re-roll to **Messi**
+(ARG v CPV, 07-03, latest KO). Vinícius plays first (06-29) but left uncaptained (toughest draw). Vice = Haaland.
+
+**Booster: QUALIFICATION — USED for R32.** +2 per XI player whose team wins its R32 tie; all 11
+are favorites → EV ≈ +16–20. R32 is the round where the most of the XI is simultaneously alive,
+and there's no live-play substitute (unlike Max Captain, which the free captain re-roll covers).
+Wildcard is barred in R32, so nothing competes for the slot. *Caveat:* +2s only land if teams
+actually advance (resolves 06-28→07-03) — a favorable bet, not risk-free.
+- HOLD Max Captain (save for a standout mismatch / Final) · Wildcard (R16/QF) · 12th Man
+  (clean mismatch) · Mystery (evaluate when revealed at R32 open).
+
 ## 2026-06-27 — R32 preliminary plan (PRELIMINARY — not yet actioned)
 Context: today is the last group day (J/K/L finals tonight); first R32 match is **tomorrow 06-28 (RSA v CAN)**. We are inside the **unlimited free-transfer window (R3→R32)**, open until that kickoff. At knockouts budget rises to **$105m** and country cap to **8**, so concentration is no longer a constraint. Round-3 squad is already locked for tonight's games — nothing to action before tonight. **Decision: HOLD all moves, re-pull after tonight, finalize R32 tomorrow morning with full info** (resolves Mojica/Colombia + Bruno/Portugal qualification and the TBD R32 fixtures incl. Yamal/Spain's tie).
 

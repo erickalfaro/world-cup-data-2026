@@ -1,8 +1,8 @@
 # `data/` — reusable World Cup 2026 dataset
 
-Snapshot pulled **2026-06-27** (tournament in progress) — fantasy `pool.json` and
-`matches.csv` / `squads.csv` both current as of this date. The two sources refresh
-independently; re-pull whichever you need before relying on prices, points, standings, or fixtures.
+Snapshot (tournament in progress) — `matches.csv` / `squads.csv` current as of **2026-06-28**;
+fantasy `pool.json` current as of **2026-06-27**. The two sources refresh independently;
+re-pull whichever you need before relying on prices, points, standings, or fixtures.
 
 ## Files
 | File | Description |
@@ -71,6 +71,7 @@ fixture) · `team` · `opponent` · `worth` (price, $m) · `points` (season-to-d
 - **Fantasy pool (2026-06-27):** 940 selectable players — down from 1,190 on 2026-06-24 as
   eliminated teams' players drop out of the pool. Each re-pull overwrites `pool.json` wholesale.
 - 104 matches total (12 groups of 4 → top 2 + 8 best 3rd-place into Round of 32 → straight knockout).
-- **Matches/squads (2026-06-27):** **66 played** (through 2026-06-26), **38 upcoming** — group
-  stage essentially done, knockouts ahead. Refresh with `python scripts/refresh_openfootball.py`.
+- **Matches/squads (2026-06-28):** **72 played** (through 2026-06-27), **32 upcoming** — group
+  stage complete, Round of 32 begins 2026-06-28 (South Africa vs Canada). Refresh with
+  `python scripts/refresh_openfootball.py`.
 - Date range: 2026-06-11 → 2026-07-19 (Final, New York / New Jersey).
